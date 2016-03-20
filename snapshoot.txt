@@ -104,11 +104,31 @@ access a[row1][row2] /
 
 
 
+7- boolean
+$Is_married=true;
+echo is_bool($Is_married);
+is_float(var)
 
+8- check null
+$var1 = null;
+			$var2 = "";
+  is_null($var1) 
+ is_null($var2) 
+  echo is_null($var3) 
+ isset($var1); 
 
+9- type
+<?php $count = "5 times"; ?>
+		Type: <?php echo gettype($count); ?><br />
+		<?php $count += 3; ?>
+		Type: <?php echo gettype($count); ?><br />
 
-
-
+set type
+a-
+	<?php $count2 = (string) $count; ?>
+		count: <?php echo gettype($count); ?><br />
+		b-
+	<?php settype($count, "integer"); ?>
 
 
 
