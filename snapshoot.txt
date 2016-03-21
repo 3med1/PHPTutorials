@@ -150,6 +150,12 @@ header('Content-Type: application/json');
 echo json_encode($data
 
 
+13- cookies
+setcookie("alx",22,time()+(60*60*24*7));
+//e,mpy
+setcookie("alx");
+echo  print_r($_COOKIE);
+
 
 
 
