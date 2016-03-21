@@ -8,13 +8,9 @@
  <?php
 
 echo "hello, PHP student";
-echo "<h1> This List of Sessions</h1>";
-
+echo "<h1> This List of Sessions Code in PHP playlist</h1>";
  ?>
-
   </br>
- 
- 
 <UL>
 <li><a href="varibles.php">varibles</a> </li>
 <li><a href="operations.php">operations</a> </li>
@@ -25,7 +21,18 @@ echo "<h1> This List of Sessions</h1>";
 <li><a href="cast.php">Casting</a> </li>
 <li><a href="condation.php">IF-Statement</a> </li>
 <li><a href="functions.php">functions</a> </li>
-<li><a href="functions_multi.php">multiple value functions</a> </li>
+<li><a href="function_multi.php">multiple value functions</a> </li>
+<li><a href="main.php">GET query</a> </li>
+<li><a href="encoding.php">Encoding</a> </li>
+<li><a href="CallOP.php">Require vs include</a> </li>
+<li><a href="headers.php">Headers</a> </li>
+<li><a href="login.php">Forms</a> </li>
+<li><a href="login_n.php">Single Form</a> </li>
+<li><a href="cookies.php">Cookies</a> </li>
+<li><a href="sessions.php">Sessions</a> </li>
+<li><a href="phpinfo.php">INFO</a> </li>
+<li><a href="PHPOOP/">OOP</a> </li>
+
 </UL>
 
 </body>
