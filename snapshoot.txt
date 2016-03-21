@@ -133,9 +133,21 @@ a-
 
 
 
+10- include
+ include('page.php') //try to add
+  require('page.php') //have to be
+   include_once('page.php') //inclue the path one time and added to arry
+   //path if it reuqired agince it agnore it and use first one
+     require_once('page.php') //have to be
 
+11- header 
+http://php.net/manual/en/function.header.php
+header("localtion: index.html");
 
-
+12- json
+$data = /** whatever you're serializing **/;
+header('Content-Type: application/json');
+echo json_encode($data
 
 
 
