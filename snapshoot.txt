@@ -154,6 +154,7 @@ echo json_encode($data
 setcookie("alx",22,time()+(60*60*24*7));
 //e,mpy
 setcookie("alx");
+setcookie("alx",NULL);
 echo  print_r($_COOKIE);
 
 

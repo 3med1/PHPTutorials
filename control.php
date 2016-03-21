@@ -7,7 +7,7 @@
 
 <h1>POST Results</h1>
 <?php
-  echo $_SESSION['userid'];
+ 
 
 ?>
 </br>
