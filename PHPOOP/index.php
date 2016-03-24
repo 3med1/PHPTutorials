@@ -18,13 +18,16 @@ and open the template in the editor.
             <li> <a href="Employee.php">Properties  and methods Class</a></li>
             <li> <a href="Constructor.php">Constructor</a></li>
              <li> <a href="MajicClass.php">Get and Set</a></li>
-             <li> <a href="inhertiance.php">inhertinace</a></li>
+             <li> <a href="inhertiance.php">inheritance</a></li>
              <li> <a href="EmployeeBasci.php">Public vs private vs protected</a></li>
              <li> <a href="creditView.php">Abstract</a></li>
              <li> <a href="interface.inc">implement</a></li>
              <li> <a href="staticView.php">static</a></li>
-
-             
+            <li> <a href="dbconnect.php">Database connect</a></li>
+          <li> <a href="dbread.php">Database Read</a></li>  
+          <li> <a href="dbinsert.php">Database Insert</a></li>
+          <li> <a href="dbupdate.php">Database update</a></li>
+          <li> <a href="dbdelete.php">Database delete</a></li>
         </ul>
     </body>
 </html>
