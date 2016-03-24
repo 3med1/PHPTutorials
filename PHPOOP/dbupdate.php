@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
    $query="update logins set username='". $usename . "'  where id=". $id;
         $result=  mysqli_query($connect, $query);
         if( $result){
-            echo '</br>Data is inerted';
+            echo '</br>Data is update';
         } 
  else {
 die("Database query failed. " . mysqli_error($connection));

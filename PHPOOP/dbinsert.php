@@ -50,7 +50,7 @@ die("Database query failed. " . mysqli_error($connection));
 
 User Name:<input type='text' name='username'>
 </br>
-pssword:<input type='password' name='password'>
+Password:<input type='password' name='password'>
 </br>
 <input type='submit' name='submit' value='insert'>
 </form>  

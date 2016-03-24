@@ -28,6 +28,7 @@ and open the template in the editor.
           <li> <a href="dbinsert.php">Database Insert</a></li>
           <li> <a href="dbupdate.php">Database update</a></li>
           <li> <a href="dbdelete.php">Database delete</a></li>
+          <li> <a href="dbsearch.php">Database search</a></li>
         </ul>
     </body>
 </html>

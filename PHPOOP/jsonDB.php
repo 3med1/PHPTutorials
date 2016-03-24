@@ -6,13 +6,7 @@ $user="root";
 $password="12345";
 $database="admins";
 $connect=  mysqli_connect($host, $user, $password, $database);
-if(mysqli_connect_errno()){
-    die("cannot connect to database field:". mysqli_connect_error());
-    
-}
- else {
-    echo 'Database is connected';  
-}
+ 
 ?>
 <!DOCTYPE html>
 <!--
@@ -34,17 +28,17 @@ and open the template in the editor.
             die("Error in query");
         }
         ?>
-        <ul>
+       
         <?php
         // 3- write or display data
-     
+     $arr=  array();
         while($row=  mysqli_fetch_assoc($result)){
-        
-            echo '<li>id:'.$row['id']  .', username:' .$row['username'].', password:' .$row['password'] ."</li>";
+        $arr[]=$row;
+           // echo '<li>id:'.$row['id']  .', username:' .$row['username'].', password:' .$row['password'] ."</li>";
         }
-     
+     echo json_encode( $arr);
         ?>
-        </ul>
+      
         <?php
         // 4 clear
         mysqli_free_result($result);
