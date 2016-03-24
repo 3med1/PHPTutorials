@@ -29,6 +29,8 @@ and open the template in the editor.
           <li> <a href="dbupdate.php">Database update</a></li>
           <li> <a href="dbdelete.php">Database delete</a></li>
           <li> <a href="dbsearch.php">Database search</a></li>
+          <li> <a href="json.php">json</a></li>
+          <li> <a href="json.php">mysql json</a></li>
         </ul>
     </body>
 </html>
